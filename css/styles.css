@@ -136,7 +136,7 @@ address {
 }
 
 .hero-header {
-  max-width: 496px;
+  max-width: 428px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -628,7 +628,6 @@ label {
   gap: 16px;
 }
 .email-submit input {
-  /* width: 264px; */
   height: 40px;
   background-color: inherit;
   border-radius: 4px;
@@ -732,14 +731,14 @@ textarea::placeholder {
   opacity: 0;
 }
 
-/* Tablet View */
+/* Mobile View */
 
-@media (min-width: 320px), (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .container {
-    max-width: 100%;
-    margin: 0 auto;
+    max-width: 432px;
+    /* margin: 0 auto; */
     padding: 0 15px;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .logo {
@@ -766,8 +765,9 @@ textarea::placeholder {
       ),
       url(../images/people-office.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
+    /* background-size: 428px; */
+    width: 428px;
+    /* margin: 0 auto; */
     background-position: center;
   }
 
@@ -1062,6 +1062,7 @@ textarea::placeholder {
   .flex-header {
     display: flex;
     align-items: center;
+    /* gap: 239px; */
   }
 }
 
@@ -1079,11 +1080,16 @@ textarea::placeholder {
   }
 }
 
-@media (min-width: 768px), (max-width: 1199px) {
+/*  Tablet View */
+
+@media (min-width: 768px) and (max-width: 1199px) {
   .container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
+    max-width: 768px;
+    /* margin: 0 auto;
+    padding: 0 15px; */
+  }
+  .mobile-menu {
+    display: none;
   }
 
   .logo {
@@ -1129,10 +1135,11 @@ textarea::placeholder {
       ),
       url(../images/people-office.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     height: 436px;
-    margin: 0 auto;
-    background-position: center;
+    width: 768px;
+    /* margin: 0 auto; */
+    background-position: left;
   }
 
   .hero-header {
@@ -1332,8 +1339,9 @@ textarea::placeholder {
   }
 
   .container {
-    margin: 0 auto;
-    padding: 0 15px;
+    /* margin: 0 auto;
+    padding: 0 15px; */
+    width: 1440px;
   }
 
   .link,
@@ -1346,7 +1354,7 @@ textarea::placeholder {
     color: var(--navy-blue);
     letter-spacing: 0.02em;
     transition-property: color;
-    position: relative;
+    /* position: relative; */
     display: block;
   }
 
@@ -1365,7 +1373,7 @@ textarea::placeholder {
   }
 
   .logo {
-    margin-right: 76px;
+    /* margin-right: 76px; */
 
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -1433,7 +1441,6 @@ textarea::placeholder {
 
   .flex-nav {
     display: flex;
-
     gap: 40px;
   }
 
@@ -1452,12 +1459,12 @@ textarea::placeholder {
 
   .phone {
     display: block;
-    margin: 24px 0 24px 40px;
+    /* margin: 24px 0 24px 40px; */
   }
 
   .email {
     display: block;
-    margin: 24px 0 24px 170px;
+    /* margin: 24px 0 24px 170px; */
   }
 
   .hero {
@@ -1469,11 +1476,11 @@ textarea::placeholder {
       ),
       url(../images/people-office.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     max-width: 1440px;
     height: 600px;
-    margin: 0 auto;
-    background-position: center;
+    /* margin: 0 auto;
+    background-position: center; */
   }
 
   .hero-header {
