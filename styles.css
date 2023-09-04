@@ -242,6 +242,7 @@ address {
 .footer-background-color {
   background-color: var(--navy-blue);
   width: 432px;
+  margin: 0 auto;
 }
 
 .logo-footer {
@@ -737,7 +738,7 @@ textarea::placeholder {
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
     max-width: 432px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     padding: 0 15px;
     /* overflow: hidden; */
   }
@@ -771,7 +772,7 @@ textarea::placeholder {
     background-repeat: no-repeat;
     /* background-size: 428px; */
     width: 428px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     background-position: center;
   }
 
@@ -827,6 +828,7 @@ textarea::placeholder {
     padding-bottom: 120px;
     background-color: var(--cloud);
     width: 432px;
+    margin: 0 auto;
   }
   .section-header-team {
     font-size: 36px;
@@ -1090,7 +1092,7 @@ textarea::placeholder {
 @media (min-width: 768px) and (max-width: 1199px) {
   .container {
     max-width: 768px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     padding: 0 15px;
   }
   .mobile-menu {
@@ -1102,6 +1104,7 @@ textarea::placeholder {
   }
   .footer-background-color {
     width: 768px;
+    margin: 0 auto;
   }
   /*  */
   .link,
@@ -1241,7 +1244,7 @@ textarea::placeholder {
     /* background-size: cover; */
     height: 436px;
     width: 768px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     background-position: left;
   }
 
@@ -1294,6 +1297,7 @@ textarea::placeholder {
     padding-top: 10%;
     background-color: var(--cloud);
     width: 768px;
+    margin: 0 auto;
   }
   .section-header-team {
     font-size: 36px;
@@ -1589,8 +1593,8 @@ textarea::placeholder {
     /* background-size: cover; */
     max-width: 1440px;
     height: 600px;
-    /* margin: 0 auto;
-    background-position: center; */
+    margin: 0 auto;
+    background-position: center;
   }
 
   .hero-header {
@@ -1626,6 +1630,7 @@ textarea::placeholder {
     padding-bottom: 120px;
     background-color: var(--cloud);
     max-width: 1440px;
+    margin: 0 auto;
   }
 
   .first-section-studio {
@@ -1740,6 +1745,7 @@ textarea::placeholder {
   .footer-background-color {
     background-color: var(--navy-blue);
     width: 1440px;
+    margin: 0 auto;
   }
 
   .logo-footer {
