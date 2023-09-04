@@ -759,7 +759,7 @@ textarea::placeholder {
   }
   .flex-header {
     display: flex;
-    gap: 121px;
+    gap: 249px;
   }
   .hero {
     background-color: var(--navy-blue);
@@ -988,9 +988,6 @@ textarea::placeholder {
   .menu-mobile button {
     display: flex;
     justify-content: flex-end;
-    position: absolute;
-    top: 24px;
-    right: 76px;
   }
 
   .modal-close {
